@@ -113,10 +113,15 @@ npm install
 
 #### 3.2 执行数据库初始化
 
-1. 在 Supabase Dashboard 中，点击左侧 **SQL Editor**
-2. 点击 **New query**
-3. 复制 `supabase/schema.sql` 的内容
-4. 粘贴并点击 **Run**
+1. 在 Supabase Dashboard 中，点击左侧 SQL Editor
+2. 点击 New query
+3. 先执行向量扩展启用命令：
+   ```sql
+   CREATE EXTENSION IF NOT EXISTS vector;
+   ```
+   点击 Run 等待执行成功
+4. 复制项目中 `supabase/schema.sql` 的内容
+5. 粘贴到 SQL Editor 中，点击 Run 完成数据库表初始化
 
 #### 3.3 启用匿名认证
 
@@ -134,16 +139,15 @@ npm install
 
 ### 4. 配置环境变量
 
-创建 `.env.local` 文件：
+1. 进入项目根目录 `interactive-aigc-demo-main`（和`README.md`、`package.json`同目录）；
+2. 在文件夹**空白处右键** → 新建 → 文本文档；
+3. 右键新建的文本文档 → 重命名，**删除默认的`.txt`后缀**，直接输入 `.env.local`（开头的`.`必须保留）；
+4. 弹出「重命名可能会导致文件不可用」的提示，直接点击**是**，完成文件创建。
 
-```bash
-cp .env.example .env.local
-```
-
-编辑 `.env.local`，填入你的 Supabase 凭证：
+双击打开新建的`.env.local`文件，复制以下内容粘贴进去，**替换成你自己的Supabase密钥**（直接覆盖文档内容，不用改格式）：
 
 ```env
-# Supabase 配置（必填）
+# Supabase 配置（必填，依次对应3.4中复制的三条信息）
 NEXT_PUBLIC_SUPABASE_URL=https://your-project.supabase.co
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_anon_public_key
 SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
@@ -497,6 +501,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 **⭐ 如果这个项目对你有帮助，请给个 Star！**
+
 
 
 
