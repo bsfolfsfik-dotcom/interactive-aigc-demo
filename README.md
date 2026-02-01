@@ -94,7 +94,7 @@
 
 ```bash
 git clone https://github.com/bsfolfsfik-dotcom/interactive-aigc-demo.git
-cd interactive_aigc_demo
+cd interactive-aigc-demo-main
 ```
 
 ### 2. 安装依赖
@@ -497,6 +497,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 **⭐ 如果这个项目对你有帮助，请给个 Star！**
+
 
 
 
