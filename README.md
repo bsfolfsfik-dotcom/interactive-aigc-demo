@@ -491,9 +491,10 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 
 ## 📞 联系方式
 
-- 项目地址: [GitHub](https://github.com/your-username/interactive-aigc-demo)
-- 问题反馈: [Issues](https://github.com/your-username/interactive-aigc-demo/issues)
+- 项目地址: [GitHub](https://github.com/bsfolfsfik-dotcom/interactive-aigc-demo)
+- 问题反馈: [Issues](https://github.com/bsfolfsfik-dotcom/interactive-aigc-demo/issues)
 
 ---
 
 **⭐ 如果这个项目对你有帮助，请给个 Star！**
+
