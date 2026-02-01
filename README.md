@@ -93,7 +93,7 @@
 ### 1. 克隆项目
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/bsfolfsfik-dotcom/interactive-aigc-demo.git
 cd 3_interactive_aigc_demo
 ```
 
@@ -497,4 +497,5 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 **⭐ 如果这个项目对你有帮助，请给个 Star！**
+
 
