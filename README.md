@@ -1,4 +1,4 @@
-# 🚀 Interactive AIGC Demo
+<img width="1278" height="765" alt="image" src="https://github.com/user-attachments/assets/cea807d6-bb38-4a23-86d6-92cab68d980b" /># 🚀 Interactive AIGC Demo
 
 > 基于 RAG 增强的 AI 内容生成演示项目 - 展示完整的 AIGC 工作流程
 
@@ -7,6 +7,14 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ---
+
+生成结果示例：
+
+iamge:
+<img width="1168" height="696" alt="image" src="https://github.com/user-attachments/assets/46409d28-0be2-431c-8462-a34258761aae" />
+
+video:
+<img width="1266" height="684" alt="image" src="https://github.com/user-attachments/assets/81e2e7fc-e047-4ec3-9666-bde8946374da" />
 
 ## ⚠️ 重要说明
 
@@ -501,6 +509,7 @@ MIT License - 详见 [LICENSE](LICENSE) 文件
 ---
 
 **⭐ 如果这个项目对你有帮助，请给个 Star！**
+
 
 
 
